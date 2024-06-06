@@ -12,7 +12,7 @@ function Login() {
     style={{backgroundImage: `url(${bg})` , backgroundSize: 'cover' , backgroundPosition: 'center'}}
     className="flex h-screen w-full">
       <div className="px-4 sm:w-full flex items-center justify-center">
-        {loginToggle ? <SignUp /> : <SignIn />}
+        <SignIn />
       </div>
     </div>
   );
